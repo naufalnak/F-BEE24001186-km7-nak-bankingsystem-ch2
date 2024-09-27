@@ -1,7 +1,9 @@
 
 # Bank Account System
 
-Berikut adalah program mengenai sistem bank
+Berikut adalah program mengenai sistem bank. Pada repository ini terdapat 2 file program yaitu :
+- File bank_account.js yang berguna untuk menjalankan perintah deposit dan withdraw
+- File banking_system.js yang berguna untuk menjalankan perintah utama dari keseluruhan program yang sudah dibuat
 
 
 ## Cara Menjalankan Program
