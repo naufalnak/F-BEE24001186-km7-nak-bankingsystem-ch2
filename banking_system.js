@@ -49,3 +49,22 @@ const mainTransaction = async () => {
     }
   );
 };
+
+const ask = () => {
+  rl.question(
+    "Apakah Anda ingin melakukan transaksi lagi? (ya/tidak): ",
+    (jawaban) => {
+      if (jawaban.toLowerCase() === "ya") {
+        mainTransaction();
+      } else {
+        console.log("Terima kasih telah menggunakan sistem perbankan!");
+        rl.close();
+      }
+    }
+  );
+};
+
+console.log(
+  `Selamat datang, ${rekeningSaya.owner}. Saldo Anda saat ini adalah ${rekeningSaya.balance}.`
+);
+mainTransaction();
